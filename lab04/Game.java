@@ -1,6 +1,9 @@
 public class Game implements World {
     
+   
   public static void main(String[] args) {
-    System.out.println("Welcome to Ripples.");     
+    BigBang b = new BigBang(new Game()); 
+    // b.start(..., ...); 
+    System.out.println( b ); 
   }
 }
